@@ -1,0 +1,17 @@
+[
+  {
+    "nome": "Central de Atendimento à Mulher",
+    "numero": "180",
+    "descricao": "Orientação e denúncia — 24 horas, todos os dias. Atende também pessoas com deficiência auditada (Libras)."
+  },
+  {
+    "nome": "Disque Direitos Humanos",
+    "numero": "100",
+    "descricao": "Violência contra crianças, adolescentes, idosos, pessoas em situação de rua e demais grupos vulneráveis."
+  },
+  {
+    "nome": "Emergência Policial",
+    "numero": "190",
+    "descricao": "Risco imediato à vida. Ligue se houver perigo agora mesmo."
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "titulo": "Cartilha de Prevenção — Conhecendo a Lei Maria da Penha",
+    "descricao": "Material explicativo sobre os direitos garantidos pela Lei nº 11.340/2006, em linguagem simples e acessível.",
+    "arquivo": "/downloads/cartilha-maria-da-penha.pdf",
+    "formato": "PDF",
+    "tamanho": "2.4 MB"
+  },
+  {
+    "titulo": "Guia Rápido — Como Ajudar Alguém em Situação de Violência",
+    "descricao": "Orientações para amigos, familiares e vizinhos que querem apoiar uma vítima.",
+    "arquivo": "/downloads/guia-como-ajudar.pdf",
+    "formato": "PDF",
+    "tamanho": "1.2 MB"
+  },
+  {
+    "titulo": "Folder Digital — Canais de Apoio",
+    "descricao": "Folder resumido com todos os canais oficiais e números de emergência para imprimir e distribuir.",
+    "arquivo": "/downloads/folder-canais-apoio.pdf",
+    "formato": "PDF",
+    "tamanho": "800 KB"
+  },
+  {
+    "titulo": "Cartaz — Você Não Está Sozinha",
+    "descricao": "Cartaz de conscientização para fixação em espaços comunitários, CRAS e UBS.",
+    "arquivo": "/downloads/cartaz-voce-nao-esta-sozinha.pdf",
+    "formato": "PDF",
+    "tamanho": "3.1 MB"
+  }
+]

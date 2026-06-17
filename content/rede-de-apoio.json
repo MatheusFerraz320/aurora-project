@@ -1,0 +1,50 @@
+[
+  {
+    "nome": "Central de Atendimento à Mulher",
+    "orgao": "Governo Federal",
+    "numero": "180",
+    "descricao": "Orientação, acolhimento e denúncia. Funciona 24 horas, todos os dias. Atende também em Libras.",
+    "site": "https://www.gov.br/mulheres",
+    "icone": "phone"
+  },
+  {
+    "nome": "Disque Direitos Humanos",
+    "orgao": "Ministério dos Direitos Humanos",
+    "numero": "100",
+    "descricao": "Denúncias de violações contra crianças, adolescentes, idosos, pessoas LGBTQIA+ e em situação de rua.",
+    "site": "https://www.gov.br/mdh",
+    "icone": "phone"
+  },
+  {
+    "nome": "Emergência Policial",
+    "orgao": "Segurança Pública",
+    "numero": "190",
+    "descricao": "Risco imediato a vida. Ligação gratuita de qualquer telefone, inclusive sem crédito.",
+    "site": null,
+    "icone": "phone"
+  },
+  {
+    "nome": "Delegacia Virtual",
+    "orgao": "Ministério da Justiça",
+    "numero": null,
+    "descricao": "Registre boletim de ocorrência online, sem sair de casa. Disponível em vários estados.",
+    "site": "https://www.delegaciavirtual.sinesp.gov.br",
+    "icone": "globe"
+  },
+  {
+    "nome": "Casa da Mulher Brasileira",
+    "orgao": "Ministério das Mulheres",
+    "numero": "180",
+    "descricao": "Atendimento humanizado com acolhimento, triagem, apoio psicossocial, delegacia e juizado no mesmo local.",
+    "site": "https://www.gov.br/mulheres",
+    "icone": "home"
+  },
+  {
+    "nome": "Aplicativo Direitos Humanos BR",
+    "orgao": "Governo Federal",
+    "numero": "180",
+    "descricao": "App gratuito com canais de denúncia, orientação e geolocalização da rede de atendimento próxima.",
+    "site": "https://www.gov.br/mdh",
+    "icone": "smartphone"
+  }
+]
