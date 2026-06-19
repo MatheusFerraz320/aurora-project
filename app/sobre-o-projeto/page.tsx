@@ -49,8 +49,8 @@ export default function SobreProjetoPage() {
           },
         ].map((item, idx) => (
           <FadeInView key={item.titulo} delay={idx * 0.1}>
-            <div className="flex flex-col gap-3 rounded-2xl border border-aurora-lilac/10 bg-white p-6 shadow-sm">
-              <div className="text-aurora-lilac">{item.icon}</div>
+            <div className="flex flex-col gap-3 rounded-2xl border border-aurora-rose/10 bg-white p-6 shadow-sm">
+              <div className="text-aurora-rose">{item.icon}</div>
               <h3 className="font-semibold text-aurora-text">{item.titulo}</h3>
               <p className="text-sm leading-relaxed text-aurora-text-light">
                 {item.descricao}
@@ -61,7 +61,7 @@ export default function SobreProjetoPage() {
       </div>
 
       <FadeInView delay={0.2}>
-        <section className="rounded-2xl border border-aurora-lilac/10 bg-white p-6 md:p-8">
+        <section className="rounded-2xl border border-aurora-rose/10 bg-white p-6 md:p-8">
           <h2 className="mb-4 text-2xl font-bold text-aurora-text">Equipe</h2>
           <p className="text-aurora-text-light">
             Estudantes, professores e profissionais da rede de apoio parceira,
@@ -71,7 +71,7 @@ export default function SobreProjetoPage() {
       </FadeInView>
 
       <FadeInView delay={0.3}>
-        <section className="rounded-2xl border border-aurora-lilac/10 bg-white p-6 md:p-8">
+        <section className="rounded-2xl border border-aurora-rose/10 bg-white p-6 md:p-8">
           <h2 className="mb-4 text-2xl font-bold text-aurora-text">
             Créditos Acadêmicos
           </h2>

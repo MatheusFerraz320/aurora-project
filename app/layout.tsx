@@ -1,9 +1,9 @@
 import type { Metadata } from "next"
 import { DM_Sans, DM_Serif_Display } from "next/font/google"
 import "./globals.css"
-import QuickExitButton from "@/components/QuickExitButton"
-import Header from "@/components/Header"
+import Sidebar from "@/components/Sidebar"
 import Footer from "@/components/Footer"
+import DisguiseMode from "@/components/DisguiseMode"
 
 const dmSans = DM_Sans({
   subsets: ["latin"],
@@ -45,11 +45,14 @@ export default function RootLayout({
       lang="pt-BR"
       className={`${dmSans.variable} ${dmSerif.variable} h-full antialiased`}
     >
-      <body className="flex min-h-full flex-col">
-        <QuickExitButton />
-        <Header />
-        <main className="flex-1">{children}</main>
-        <Footer />
+      <body className="flex min-h-full">
+        <Sidebar />
+        <DisguiseMode>
+          <div className="flex flex-1 flex-col md:ml-60">
+            <main className="flex-1">{children}</main>
+            <Footer />
+          </div>
+        </DisguiseMode>
       </body>
     </html>
   )

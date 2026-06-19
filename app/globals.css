@@ -1,29 +1,51 @@
 @import "tailwindcss";
 
 @theme inline {
-  --color-aurora-teal: #1A6B75;
-  --color-aurora-teal-light: #23828E;
-  --color-aurora-teal-dark: #13555D;
-  --color-aurora-lilac: #7C5FBF;
-  --color-aurora-lilac-light: #9A80D0;
-  --color-aurora-lilac-dark: #5F459E;
-  --color-aurora-gold: #E8954A;
-  --color-aurora-gold-light: #F0AD6E;
+  --color-aurora-rose: #D44A7A;
+  --color-aurora-rose-light: #F2D5DE;
+  --color-aurora-rose-smoke: #E8B4C8;
+  --color-aurora-rose-deep: #B83A6A;
+  --color-aurora-crimson: #C44569;
+  --color-aurora-burgundy: #8B2252;
+  --color-aurora-blush: #FDF0F4;
+  --color-aurora-blush-alt: #F8E8EE;
+  --color-aurora-gold: #C9A96E;
+  --color-aurora-gold-light: #DDC08A;
   --color-aurora-danger: #C73B3B;
-  --color-aurora-bg-light: #F8F5FF;
-  --color-aurora-bg-alt: #F0F4FF;
-  --color-aurora-text: #1a1a2e;
-  --color-aurora-text-light: #4a4a6a;
+  --color-aurora-text: #2D1B2E;
+  --color-aurora-text-light: #6B4F6B;
+  --color-aurora-text-muted: #9A7D9A;
+  --color-aurora-bg: #FFFFFF;
+  --color-aurora-bg-alt: #FDF8FA;
+  --color-aurora-bg-card: #FFFFFF;
   --font-sans: var(--font-sans);
   --font-serif: var(--font-serif);
 }
 
 body {
-  background: var(--color-aurora-bg-light);
+  background: var(--color-aurora-bg);
   color: var(--color-aurora-text);
   font-family: var(--font-sans), system-ui, sans-serif;
 }
 
 h1, h2, h3, h4 {
   font-family: var(--font-serif), Georgia, serif;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes countUp {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.6s ease-out forwards;
+}
+
+.animate-count {
+  animation: countUp 0.4s ease-out forwards;
 }

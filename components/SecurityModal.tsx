@@ -55,7 +55,7 @@ export default function SecurityModal({ children }: SecurityModalProps) {
             `}
           >
             <div className="mb-4 flex items-center justify-between">
-              <h2 className="flex items-center gap-2 text-lg font-bold text-aurora-teal">
+              <h2 className="flex items-center gap-2 text-lg font-bold text-aurora-rose">
                 <Shield className="h-5 w-5" />
                 Navegação Segura
               </h2>
@@ -131,12 +131,12 @@ export default function SecurityModal({ children }: SecurityModalProps) {
               onClick={close}
               className={`
                 mt-5 w-full rounded-xl
-                bg-aurora-teal py-2.5
+                bg-aurora-rose py-2.5
                 text-sm font-semibold text-white
                 transition-colors
-                hover:bg-aurora-teal-light
+                hover:bg-aurora-rose-light
                 focus:outline-none focus:ring-2
-                focus:ring-aurora-teal focus:ring-offset-2
+                focus:ring-aurora-rose focus:ring-offset-2
               `}
             >
               Entendi, fechar

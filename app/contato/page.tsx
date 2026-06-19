@@ -14,7 +14,7 @@ export default function ContatoPage() {
       <FadeInView>
         <section>
           <h1 className="mb-4 flex items-center gap-3 text-3xl font-bold text-aurora-text md:text-4xl">
-            <Mail className="h-8 w-8 text-aurora-gold" />
+            <Mail className="h-8 w-8 text-aurora-rose" />
             Contato Institucional
           </h1>
           <p className="text-lg leading-relaxed text-aurora-text-light">

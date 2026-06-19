@@ -12,10 +12,10 @@ export default function Footer() {
       <EmergencyBanner />
 
       <div className="bg-aurora-text px-4 py-10 text-white">
-        <div className="mx-auto grid max-w-6xl gap-8 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mx-auto max-w-6xl gap-8 sm:grid sm:grid-cols-2 lg:grid-cols-4">
           <FadeInView delay={0}>
             <div>
-              <h3 className="mb-3 flex items-center gap-2 text-sm font-bold uppercase tracking-wider text-aurora-gold">
+              <h3 className="mb-3 flex items-center gap-2 text-sm font-bold uppercase tracking-wider text-aurora-rose-light">
                 <Shield className="h-4 w-4" />
                 Projeto Aurora
               </h3>
@@ -29,7 +29,7 @@ export default function Footer() {
 
           <FadeInView delay={0.1}>
             <div>
-              <h3 className="mb-3 flex items-center gap-2 text-sm font-bold uppercase tracking-wider text-aurora-gold">
+              <h3 className="mb-3 flex items-center gap-2 text-sm font-bold uppercase tracking-wider text-aurora-rose-light">
                 <BookOpen className="h-4 w-4" />
                 Navegue
               </h3>
@@ -47,6 +47,11 @@ export default function Footer() {
                 <li>
                   <Link href="/ajuda" className="transition-colors hover:text-white">
                     Buscar Ajuda
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/plano-seguranca" className="transition-colors hover:text-white">
+                    Plano de Segurança
                   </Link>
                 </li>
                 <li>
@@ -70,7 +75,7 @@ export default function Footer() {
 
           <FadeInView delay={0.2}>
             <div>
-              <h3 className="mb-3 flex items-center gap-2 text-sm font-bold uppercase tracking-wider text-aurora-gold">
+              <h3 className="mb-3 flex items-center gap-2 text-sm font-bold uppercase tracking-wider text-aurora-rose-light">
                 <Heart className="h-4 w-4" />
                 Ajuda Imediata
               </h3>
@@ -78,7 +83,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="tel:180"
-                    className="flex items-center gap-2 font-bold text-white transition-colors hover:text-aurora-gold"
+                    className="flex items-center gap-2 font-bold text-white transition-colors hover:text-aurora-rose-light"
                   >
                     <Phone className="h-3.5 w-3.5" /> 180 — Central da Mulher
                   </a>
@@ -86,7 +91,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="tel:100"
-                    className="flex items-center gap-2 font-bold text-white transition-colors hover:text-aurora-gold"
+                    className="flex items-center gap-2 font-bold text-white transition-colors hover:text-aurora-rose-light"
                   >
                     <Phone className="h-3.5 w-3.5" /> 100 — Disque Direitos Humanos
                   </a>
@@ -94,7 +99,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="tel:190"
-                    className="flex items-center gap-2 font-bold text-white transition-colors hover:text-aurora-gold"
+                    className="flex items-center gap-2 font-bold text-white transition-colors hover:text-aurora-rose-light"
                   >
                     <Phone className="h-3.5 w-3.5" /> 190 — Emergência Policial
                   </a>
@@ -105,7 +110,7 @@ export default function Footer() {
 
           <FadeInView delay={0.3}>
             <div>
-              <h3 className="mb-3 flex items-center gap-2 text-sm font-bold uppercase tracking-wider text-aurora-gold">
+              <h3 className="mb-3 flex items-center gap-2 text-sm font-bold uppercase tracking-wider text-aurora-rose-light">
                 <Info className="h-4 w-4" />
                 Institucional
               </h3>

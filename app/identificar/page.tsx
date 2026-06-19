@@ -40,14 +40,14 @@ export default function IdentificarPage() {
       <FadeInView delay={0.1}>
         <section>
           <h2 className="mb-4 flex items-center gap-2 text-xl font-bold text-aurora-text">
-            <AlertTriangle className="h-5 w-5 text-aurora-gold" />
+            <AlertTriangle className="h-5 w-5 text-aurora-rose" />
             Sinais de Alerta
           </h2>
           <div className="grid gap-3 sm:grid-cols-2">
             {sinais.map((sinal, idx) => (
               <div
                 key={idx}
-                className="rounded-xl border border-aurora-lilac/10 bg-white p-4 text-sm leading-relaxed text-aurora-text-light"
+                className="rounded-xl border border-aurora-rose-light/30 bg-white p-4 text-sm leading-relaxed text-aurora-text-light"
               >
                 {sinal}
               </div>
@@ -59,7 +59,7 @@ export default function IdentificarPage() {
       <FadeInView delay={0.2}>
         <section>
           <h2 className="mb-2 flex items-center gap-2 text-xl font-bold text-aurora-text">
-            <ListChecks className="h-5 w-5 text-aurora-lilac" />
+            <ListChecks className="h-5 w-5 text-aurora-rose" />
             Checklist de Autoavaliação
           </h2>
           <p className="mb-6 text-sm text-aurora-text-light">

@@ -96,10 +96,10 @@ export default function SelfCheckQuiz() {
         {perguntas.map((p, idx) => (
           <div
             key={p.id}
-            className="rounded-xl border border-aurora-lilac/10 bg-white p-4"
+            className="rounded-xl border border-aurora-rose-light/30 bg-white p-4"
           >
             <p className="mb-2.5 text-sm font-medium text-aurora-text">
-              <span className="text-aurora-lilac">{idx + 1}.</span>{" "}
+              <span className="text-aurora-rose">{idx + 1}.</span>{" "}
               {p.texto}
             </p>
             <div className="flex gap-3">
@@ -107,7 +107,7 @@ export default function SelfCheckQuiz() {
                 onClick={() => alternarResposta(p.id, true)}
                 className={`rounded-lg px-4 py-1.5 text-sm font-medium transition-all ${
                   respostas[p.id] === true
-                    ? "bg-aurora-teal text-white"
+                    ? "bg-aurora-rose text-white"
                     : "bg-gray-100 text-gray-600 hover:bg-gray-200"
                 }`}
               >
@@ -134,7 +134,7 @@ export default function SelfCheckQuiz() {
           disabled={!podeCalcular}
           className={`rounded-xl px-6 py-3 font-semibold text-white transition-all ${
             podeCalcular
-              ? "bg-aurora-lilac hover:bg-aurora-lilac-light focus:outline-none focus:ring-2 focus:ring-aurora-lilac focus:ring-offset-2"
+              ? "bg-aurora-rose hover:bg-aurora-rose-deep focus:outline-none focus:ring-2 focus:ring-aurora-rose focus:ring-offset-2"
               : "cursor-not-allowed bg-gray-300"
           }`}
         >
@@ -142,7 +142,7 @@ export default function SelfCheckQuiz() {
         </button>
         <button
           onClick={reiniciar}
-          className="rounded-xl border border-gray-200 bg-white px-6 py-3 font-semibold text-aurora-text-light transition-colors hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-aurora-lilac/50"
+          className="rounded-xl border border-gray-200 bg-white px-6 py-3 font-semibold text-aurora-text-light transition-colors hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-aurora-rose/30"
         >
           Reiniciar
         </button>
@@ -176,11 +176,11 @@ export default function SelfCheckQuiz() {
               </p>
               <p className="text-sm text-aurora-text-light">
                 Ligue para{" "}
-                <a href="tel:180" className="font-bold text-aurora-teal hover:underline">
+                <a href="tel:180" className="font-bold text-aurora-rose hover:underline">
                   180
                 </a>{" "}
                 (Central de Atendimento à Mulher) ou{" "}
-                <a href="tel:190" className="font-bold text-aurora-teal hover:underline">
+                <a href="tel:190" className="font-bold text-aurora-rose hover:underline">
                   190
                 </a>{" "}
                 (Emergência) se houver risco imediato.

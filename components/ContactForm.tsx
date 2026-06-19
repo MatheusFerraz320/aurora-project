@@ -96,8 +96,8 @@ export default function ContactForm() {
             border-gray-200 bg-white px-4 py-3
             text-sm
             placeholder:text-gray-400
-            focus:border-aurora-lilac focus:outline-none
-            focus:ring-2 focus:ring-aurora-lilac/20
+            focus:border-aurora-rose focus:outline-none
+            focus:ring-2 focus:ring-aurora-rose/20
           `}
           placeholder="Seu nome"
         />
@@ -117,8 +117,8 @@ export default function ContactForm() {
             border-gray-200 bg-white px-4 py-3
             text-sm
             placeholder:text-gray-400
-            focus:border-aurora-lilac focus:outline-none
-            focus:ring-2 focus:ring-aurora-lilac/20
+            focus:border-aurora-rose focus:outline-none
+            focus:ring-2 focus:ring-aurora-rose/20
           `}
           placeholder="seu@email.com"
         />
@@ -138,8 +138,8 @@ export default function ContactForm() {
             border-gray-200 bg-white px-4 py-3
             text-sm
             placeholder:text-gray-400
-            focus:border-aurora-lilac focus:outline-none
-            focus:ring-2 focus:ring-aurora-lilac/20
+            focus:border-aurora-rose focus:outline-none
+            focus:ring-2 focus:ring-aurora-rose/20
           `}
           placeholder="Parceria, imprensa, dúvidas institucionais"
         />
@@ -159,8 +159,8 @@ export default function ContactForm() {
             border-gray-200 bg-white px-4 py-3
             text-sm
             placeholder:text-gray-400
-            focus:border-aurora-lilac focus:outline-none
-            focus:ring-2 focus:ring-aurora-lilac/20
+            focus:border-aurora-rose focus:outline-none
+            focus:ring-2 focus:ring-aurora-rose/20
           `}
           placeholder="Sua mensagem (apenas para assuntos institucionais)"
         />
@@ -171,13 +171,13 @@ export default function ContactForm() {
         disabled={carregando}
         className={`
           inline-flex items-center gap-2
-          rounded-xl bg-aurora-teal
+          rounded-xl bg-aurora-rose
           px-6 py-3
           font-semibold text-white
           transition-all
-          hover:bg-aurora-teal-light
+          hover:bg-aurora-rose-light
           focus:outline-none focus:ring-2
-          focus:ring-aurora-teal focus:ring-offset-2
+          focus:ring-aurora-rose focus:ring-offset-2
           disabled:cursor-not-allowed disabled:opacity-60
         `}
       >

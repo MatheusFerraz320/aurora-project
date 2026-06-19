@@ -55,19 +55,19 @@ export default function AjudaPage() {
       <FadeInView delay={0.2}>
         <section>
           <h2 className="mb-6 flex items-center gap-2 text-2xl font-bold text-aurora-text">
-            <Shield className="h-6 w-6 text-aurora-lilac" />
+            <Shield className="h-6 w-6 text-aurora-rose" />
             Canais de Apoio e Orientação
           </h2>
           <div className="grid gap-4">
             {canais.map((canal, idx) => (
               <FadeInView key={canal.numero} delay={idx * 0.1}>
-                <div className="flex flex-col gap-3 rounded-2xl border border-aurora-lilac/10 bg-white p-5 shadow-sm sm:flex-row sm:items-center">
+                <div className="flex flex-col gap-3 rounded-2xl border border-aurora-rose-light/30 bg-white p-5 shadow-sm sm:flex-row sm:items-center">
                   <a
                     href={`tel:${canal.numero}`}
                     className={`
                       flex h-14 w-14 shrink-0 items-center justify-center
-                      rounded-xl bg-aurora-teal text-xl font-bold text-white
-                      transition-colors hover:bg-aurora-teal-light
+                      rounded-xl bg-aurora-rose text-xl font-bold text-white
+                      transition-colors hover:bg-aurora-rose-deep
                     `}
                   >
                     {canal.numero}
@@ -84,9 +84,9 @@ export default function AjudaPage() {
                     href={`tel:${canal.numero}`}
                     className={`
                       inline-flex items-center gap-1 rounded-lg
-                      bg-aurora-teal/10 px-4 py-2
-                      text-sm font-semibold text-aurora-teal
-                      transition-colors hover:bg-aurora-teal hover:text-white
+                      bg-aurora-rose/10 px-4 py-2
+                      text-sm font-semibold text-aurora-rose
+                      transition-colors hover:bg-aurora-rose hover:text-white
                     `}
                   >
                     Ligar <ArrowRight className="h-4 w-4" />
@@ -104,7 +104,7 @@ export default function AjudaPage() {
             Como Denunciar Formalmente
           </h2>
           <div className="space-y-4 leading-relaxed text-aurora-text-light">
-            <div className="rounded-xl border border-aurora-lilac/10 bg-white p-5">
+            <div className="rounded-xl border border-aurora-rose-light/30 bg-white p-5">
               <h3 className="mb-2 font-semibold text-aurora-text">
                 1. Boletim de Ocorrência (B.O.)
               </h3>
@@ -114,14 +114,14 @@ export default function AjudaPage() {
                   href="https://www.delegaciavirtual.sinesp.gov.br/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="font-medium text-aurora-teal underline"
+                  className="font-medium text-aurora-rose underline"
                 >
                   Delegacia Virtual
                 </a>{" "}
                 (em alguns estados). Não precisa de advogado(a).
               </p>
             </div>
-            <div className="rounded-xl border border-aurora-lilac/10 bg-white p-5">
+            <div className="rounded-xl border border-aurora-rose-light/30 bg-white p-5">
               <h3 className="mb-2 font-semibold text-aurora-text">
                 2. Medida Protetiva de Urgência
               </h3>
@@ -131,7 +131,7 @@ export default function AjudaPage() {
                 agressor, proibição de contato e aproximação.
               </p>
             </div>
-            <div className="rounded-xl border border-aurora-lilac/10 bg-white p-5">
+            <div className="rounded-xl border border-aurora-rose-light/30 bg-white p-5">
               <h3 className="mb-2 font-semibold text-aurora-text">
                 3. Acompanhamento Psicossocial
               </h3>

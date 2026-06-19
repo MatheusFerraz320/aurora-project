@@ -4,12 +4,7 @@ import canais from "@/content/canais-oficiais.json"
 export default function EmergencyBanner() {
   return (
     <div
-      className={`
-        w-full
-        bg-aurora-teal-dark
-        px-4 py-3
-        text-white
-      `}
+      className="w-full bg-gradient-to-r from-aurora-burgundy to-aurora-rose-deep px-4 py-3 text-white"
       role="banner"
       aria-label="Canais oficiais de emergência"
     >
@@ -22,14 +17,7 @@ export default function EmergencyBanner() {
           <a
             key={canal.numero}
             href={`tel:${canal.numero}`}
-            className={`
-              flex items-center gap-1
-              rounded-md px-2.5 py-1
-              text-sm font-bold
-              transition-colors
-              hover:bg-white/20
-              focus:outline-none focus:ring-2 focus:ring-white/50
-            `}
+            className="flex items-center gap-1 rounded-md px-2.5 py-1 text-sm font-bold transition-colors hover:bg-white/20 focus:outline-none focus:ring-2 focus:ring-white/50"
             aria-label={`${canal.nome}: ${canal.numero}`}
           >
             <Phone className="h-3.5 w-3.5" />

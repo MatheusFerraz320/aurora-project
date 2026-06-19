@@ -31,7 +31,7 @@ export default function BlogPage() {
     <div className="mx-auto max-w-4xl space-y-8 px-4 py-12 md:py-16">
       <section>
         <h1 className="mb-4 flex items-center gap-3 text-3xl font-bold text-aurora-text md:text-4xl">
-          <Newspaper className="h-8 w-8 text-aurora-gold" />
+          <Newspaper className="h-8 w-8 text-aurora-rose" />
           Blog
         </h1>
         <p className="text-lg leading-relaxed text-aurora-text-light">

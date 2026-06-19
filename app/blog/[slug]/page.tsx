@@ -37,7 +37,7 @@ export default async function BlogPostPage({ params }: PageProps) {
     <div className="mx-auto max-w-3xl space-y-6 px-4 py-12 md:py-16">
       <Link
         href="/blog"
-        className="inline-flex items-center gap-1.5 text-sm font-medium text-aurora-text-light transition-colors hover:text-aurora-teal"
+        className="inline-flex items-center gap-1.5 text-sm font-medium text-aurora-text-light transition-colors hover:text-aurora-rose"
       >
         <ArrowLeft className="h-4 w-4" />
         Voltar para o Blog
@@ -46,7 +46,7 @@ export default async function BlogPostPage({ params }: PageProps) {
       <FadeInView>
         <article>
           <header className="mb-8">
-            <div className="mb-3 flex flex-wrap items-center gap-3 text-xs text-gray-400">
+            <div className="mb-3 flex flex-wrap items-center gap-3 text-xs text-aurora-text-muted">
               <span className="flex items-center gap-1">
                 <Calendar className="h-3.5 w-3.5" />
                 {new Date(metadata.data).toLocaleDateString("pt-BR")}
@@ -54,7 +54,7 @@ export default async function BlogPostPage({ params }: PageProps) {
               {metadata.tags?.map((tag) => (
                 <span
                   key={tag}
-                  className="flex items-center gap-0.5 rounded-full bg-aurora-lilac/10 px-2.5 py-0.5 text-[11px] text-aurora-lilac-dark"
+                  className="flex items-center gap-0.5 rounded-full bg-aurora-blush px-2.5 py-0.5 text-[11px] text-aurora-rose"
                 >
                   <Tag className="h-3 w-3" />
                   {tag}
@@ -73,9 +73,9 @@ export default async function BlogPostPage({ params }: PageProps) {
               prose-h2:text-2xl prose-h2:mt-8
               prose-h3:text-xl prose-h3:mt-6
               prose-p:text-aurora-text-light prose-p:leading-relaxed
-              prose-a:text-aurora-teal prose-a:no-underline hover:prose-a:underline
+              prose-a:text-aurora-rose prose-a:no-underline hover:prose-a:underline
               prose-strong:text-aurora-text
-              prose-blockquote:border-aurora-lilac prose-blockquote:bg-aurora-lilac/5
+              prose-blockquote:border-aurora-rose-light prose-blockquote:bg-aurora-blush
               prose-blockquote:py-1 prose-blockquote:px-4 prose-blockquote:rounded-r-xl
               prose-li:text-aurora-text-light prose-li:leading-relaxed
             `}
@@ -88,7 +88,7 @@ export default async function BlogPostPage({ params }: PageProps) {
       <div className="pt-4">
         <Link
           href="/blog"
-          className="inline-flex items-center gap-1.5 text-sm font-medium text-aurora-text-light transition-colors hover:text-aurora-teal"
+          className="inline-flex items-center gap-1.5 text-sm font-medium text-aurora-text-light transition-colors hover:text-aurora-rose"
         >
           <ArrowLeft className="h-4 w-4" />
           Voltar para o Blog

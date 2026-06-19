@@ -12,7 +12,7 @@ export default function Disclaimer({
   const styles = {
     warning:
       "border-amber-200 bg-amber-50 text-amber-900",
-    info: "border-aurora-lilac/20 bg-aurora-lilac/5 text-aurora-text-light",
+    info: "border-aurora-rose-light/30 bg-aurora-blush text-aurora-text-light",
   }
 
   return (
@@ -23,7 +23,7 @@ export default function Disclaimer({
         leading-relaxed ${styles[variant]}
       `}
     >
-      <AlertTriangle className="mt-0.5 h-5 w-5 shrink-0 text-aurora-gold" />
+      <AlertTriangle className="mt-0.5 h-5 w-5 shrink-0 text-aurora-rose" />
       <div>{children}</div>
     </div>
   )

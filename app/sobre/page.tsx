@@ -83,8 +83,8 @@ export default function SobrePage() {
         <div className="grid gap-4 sm:grid-cols-2">
           {tipos.map((t, idx) => (
             <FadeInView key={t.titulo} delay={idx * 0.1}>
-              <div className="flex flex-col gap-2 rounded-2xl border border-aurora-lilac/10 bg-white p-5 shadow-sm">
-                <div className="text-aurora-lilac">{t.icon}</div>
+              <div className="flex flex-col gap-2 rounded-2xl border border-aurora-rose/10 bg-white p-5 shadow-sm">
+                <div className="text-aurora-rose">{t.icon}</div>
                 <h3 className="font-semibold text-aurora-text">{t.titulo}</h3>
                 <p className="text-sm leading-relaxed text-aurora-text-light">
                   {t.descricao}
@@ -144,8 +144,8 @@ export default function SobrePage() {
               para proteger, punir e prevenir a violência domestica contra a
               mulher.
             </p>
-            <div className="flex items-start gap-3 rounded-xl border border-aurora-lilac/10 bg-white p-5">
-              <Scale className="mt-0.5 h-5 w-5 shrink-0 text-aurora-lilac" />
+            <div className="flex items-start gap-3 rounded-xl border border-aurora-rose/10 bg-white p-5">
+              <Scale className="mt-0.5 h-5 w-5 shrink-0 text-aurora-rose" />
               <div>
                 <p className="font-semibold text-aurora-text">
                   Principais Direitos:
