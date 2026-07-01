@@ -1,4 +1,4 @@
-import { Search, Heart, BookOpen, ArrowRight, Shield } from "lucide-react"
+import { Search, Heart, BookOpen, ArrowRight, Shield, BarChart3 } from "lucide-react"
 import Link from "next/link"
 import HeroSection from "@/components/HeroSection"
 import FadeInView from "@/components/FadeInView"
@@ -66,6 +66,14 @@ export default function Home() {
                 icon={<BookOpen className="h-6 w-6" />}
                 titulo="Sobre a Violência"
                 descricao="Entenda os tipos, o ciclo e seus direitos."
+              />
+            </FadeInView>
+            <FadeInView delay={0.4}>
+              <CardLink
+                href="/numeros"
+                icon={<BarChart3 className="h-6 w-6" />}
+                titulo="Dados 2025"
+                descricao="Números oficiais que mostram que a ajuda funciona e você não está sozinha."
               />
             </FadeInView>
           </div>

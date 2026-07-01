@@ -20,6 +20,7 @@ import {
   LogOut,
   ChevronLeft,
   Shield,
+  BarChart3,
 } from "lucide-react"
 
 const navLinks = [
@@ -27,6 +28,8 @@ const navLinks = [
   { href: "/sobre", label: "Sobre", icon: Info },
   { href: "/identificar", label: "Identificar", icon: Search },
   { href: "/ajuda", label: "Ajuda", icon: Heart },
+  { href: "/plano-seguranca", label: "Plano de Segurança", icon: Shield },
+  { href: "/numeros", label: "Dados 2025", icon: BarChart3 },
   { href: "/rede-de-apoio", label: "Rede de Apoio", icon: Share2 },
   { href: "/recursos", label: "Recursos", icon: BookOpen },
   { href: "/blog", label: "Blog", icon: Newspaper },

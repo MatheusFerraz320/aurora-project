@@ -1,0 +1,50 @@
+[
+  {
+    "valor": "594.118",
+    "rotulo": "Atendimentos realizados",
+    "subtitulo": "Ligue 180 — jan a jul 2025",
+    "fonte": "Ministério das Mulheres",
+    "icone": "phone",
+    "destaque": "Mais de meio milhão de atendimentos. Cada ligação é um passo em direção à liberdade."
+  },
+  {
+    "valor": "86.025",
+    "rotulo": "Denúncias registradas",
+    "subtitulo": "Ligue 180 — jan a jul 2025",
+    "fonte": "Ministério das Mulheres",
+    "icone": "shield",
+    "destaque": "Denunciar é o primeiro passo. O sistema está preparado para acolher você."
+  },
+  {
+    "valor": "180 mil+",
+    "rotulo": "Medidas protetivas concedidas",
+    "subtitulo": "Brasil — 2025",
+    "fonte": "CNJ",
+    "icone": "gavel",
+    "destaque": "A Justiça tem agido. A maioria dos pedidos de medida protetiva é concedida em até 48 horas."
+  },
+  {
+    "valor": "4.212",
+    "rotulo": "Mulheres acolhidas presencialmente",
+    "subtitulo": "Rede de acolhimento (DF)",
+    "fonte": "Observatório da Mulher",
+    "icone": "heart",
+    "destaque": "O acolhimento presencial muda vidas. Centros especializados estão prontos para receber você."
+  },
+  {
+    "valor": "23,6 mi",
+    "rotulo": "Brasileiras que sofreram violência",
+    "subtitulo": "27% das mulheres no Brasil",
+    "fonte": "DataSenado 2025",
+    "icone": "users",
+    "destaque": "Você não está sozinha. Milhões de brasileiras já passaram por isso e buscaram ajuda."
+  },
+  {
+    "valor": "1 a cada 3",
+    "rotulo": "Mulheres já sofreram violência",
+    "subtitulo": "Dado que se repete a cada pesquisa",
+    "fonte": "Fórum Brasileiro de Segurança Pública",
+    "icone": "alert-triangle",
+    "destaque": "A violência é mais comum do que parece. Mas a saída também existe."
+  }
+]

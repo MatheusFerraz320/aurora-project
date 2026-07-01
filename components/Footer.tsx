@@ -60,6 +60,11 @@ export default function Footer() {
                   </Link>
                 </li>
                 <li>
+                  <Link href="/numeros" className="transition-colors hover:text-white">
+                    Dados 2025
+                  </Link>
+                </li>
+                <li>
                   <Link href="/recursos" className="transition-colors hover:text-white">
                     Recursos
                   </Link>
