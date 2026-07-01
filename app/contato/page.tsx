@@ -18,7 +18,7 @@ export default function ContatoPage() {
             Contato Institucional
           </h1>
           <p className="text-lg leading-relaxed text-aurora-text-light">
-            Este canal é para parcerias, imprensa e duvidas institucionais. Não
+            Este canal é para parcerias, imprensa e dúvidas institucionais. Não
             é canal de emergência ou denúncia.
           </p>
         </section>

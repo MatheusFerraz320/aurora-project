@@ -35,8 +35,8 @@ export default function BlogPage() {
           Blog
         </h1>
         <p className="text-lg leading-relaxed text-aurora-text-light">
-          Artigos sobre politicas publicas, prevenção, campanhas e atualizações
-          legais sobre o combate a violencia domestica.
+Artigos sobre políticas públicas, prevenção, campanhas e atualizações
+legais sobre o combate à violência doméstica.
         </p>
       </section>
 

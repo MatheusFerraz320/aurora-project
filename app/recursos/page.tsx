@@ -19,7 +19,7 @@ export default function RecursosPage() {
           </h1>
           <p className="text-lg leading-relaxed text-aurora-text-light">
             Cartilhas, cartazes e materiais educativos para download. Todo o
-            conteúdo pode ser impresso e distribuido pela rede de apoio.
+            conteúdo pode ser impresso e distribuído pela rede de apoio.
           </p>
         </section>
       </FadeInView>

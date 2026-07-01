@@ -30,9 +30,9 @@ export default function IdentificarPage() {
             Como Identificar a Violência
           </h1>
           <p className="text-lg leading-relaxed text-aurora-text-light">
-            A violencia domestica nem sempre começa com agressão fisica. Ela
-            pode ser sutil, gradual e dificil de reconhecer, especialmente
-            quando vem de alguém proximo.
+A violência doméstica nem sempre começa com agressão física. Ela
+pode ser sutil, gradual e difícil de reconhecer, especialmente
+quando vem de alguém próximo.
           </p>
         </section>
       </FadeInView>
@@ -63,7 +63,7 @@ export default function IdentificarPage() {
             Checklist de Autoavaliação
           </h2>
           <p className="mb-6 text-sm text-aurora-text-light">
-            Responda as perguntas abaixo de forma anonima. Nenhuma resposta é
+            Responda as perguntas abaixo de forma anônima. Nenhuma resposta é
             salva. Ao final, você recebe uma orientação inicial.
           </p>
           <SelfCheckQuiz />

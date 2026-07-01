@@ -31,7 +31,7 @@ export default function AjudaPage() {
           </h2>
           <p className="mb-4 text-base leading-relaxed text-red-900">
             Se há perigo agora (agressão em andamento, ameaça com arma,
-            violencia grave iminente) ligue imediatamente:
+            violência grave iminente) ligue imediatamente:
           </p>
           <a
             href="tel:190"
@@ -46,7 +46,7 @@ export default function AjudaPage() {
             190 — Polícia Militar
           </a>
           <p className="mt-3 text-sm text-red-800">
-            A PM vai ate você, faz o boletim de ocorrência e garante sua
+            A PM vai até você, faz o boletim de ocorrência e garante sua
             segurança no momento.
           </p>
         </section>
@@ -136,7 +136,7 @@ export default function AjudaPage() {
                 3. Acompanhamento Psicossocial
               </h3>
               <p className="text-sm">
-                A vitima tem direito a atendimento psicologico e social pelo
+                A vítima tem direito a atendimento psicológico e social pelo
                 SUS, CRAS e CREAS. Procure o CRAS mais proximo para ser
                 encaminhada(o).
               </p>

@@ -15,8 +15,8 @@ export default function SobreProjetoPage() {
             Sobre o Projeto Aurora
           </h1>
           <p className="text-lg leading-relaxed text-aurora-text-light">
-            O Projeto Aurora une conhecimento academico e compromisso social
-            no combate a violencia domestica.
+O Projeto Aurora une conhecimento acadêmico e compromisso social
+no combate à violência doméstica.
           </p>
         </section>
       </FadeInView>
@@ -45,7 +45,7 @@ export default function SobreProjetoPage() {
             icon: <Shield className="h-6 w-6" />,
             titulo: "Compromisso Ético",
             descricao:
-              "Total respeito a privacidade. Nenhum dado sensível é coletado. O site não substitui atendimento profissional.",
+              "Total respeito à privacidade. Nenhum dado sensível é coletado. O site não substitui atendimento profissional.",
           },
         ].map((item, idx) => (
           <FadeInView key={item.titulo} delay={idx * 0.1}>

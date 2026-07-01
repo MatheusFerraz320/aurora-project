@@ -24,7 +24,7 @@ const tipos = [
     icon: <Eye className="h-6 w-6" />,
     titulo: "Sexual",
     descricao:
-      "Relação sexual forcada, imposição de atos contra a vontade, impedimento do uso de contraceptivos.",
+      "Relação sexual forçada, imposição de atos contra a vontade, impedimento do uso de contraceptivos.",
   },
   {
     icon: <Wallet className="h-6 w-6" />,
@@ -39,21 +39,21 @@ const ciclo = [
     numero: "1",
     titulo: "Aumento da Tensão",
     descricao:
-      "Conflitos menores, agressões verbais, humilhações. A vitima tenta apaziguar e anda sobre cascas de ovos.",
+      "Conflitos menores, agressões verbais, humilhações. A vítima tenta apaziguar e anda sobre cascas de ovos.",
     cor: "border-amber-300 bg-amber-50",
   },
   {
     numero: "2",
     titulo: "Ato de Violência",
     descricao:
-      "A tensão acumulada explode em agressão fisica, sexual ou psicologica grave. Pode durar horas ou dias.",
+      "A tensão acumulada explode em agressão física, sexual ou psicológica grave. Pode durar horas ou dias.",
     cor: "border-red-200 bg-red-50",
   },
   {
     numero: "3",
     titulo: "Lua de Mel",
     descricao:
-      "O agressor se mostra arrependido, promete mudar, faz juras de amor. A vitima acredita e o ciclo recomeça.",
+      "O agressor se mostra arrependido, promete mudar, faz juras de amor. A vítima acredita e o ciclo recomeça.",
     cor: "border-emerald-200 bg-emerald-50",
   },
 ]
@@ -67,11 +67,11 @@ export default function SobrePage() {
             Sobre a Violência Doméstica
           </h1>
           <p className="text-lg leading-relaxed text-aurora-text-light">
-            Violência doméstica é qualquer ação que cause sofrimento fisico,
-            sexual, psicologico, moral ou patrimonial dentro de casa ou em
-            relações intimas de afeto. Não importa se o agressor é
-            parceiro(a), ex-parceiro(a), familiar ou pessoa que convive com a
-            vitima.
+Violência doméstica é qualquer ação que cause sofrimento físico,
+sexual, psicológico, moral ou patrimonial dentro de casa ou em
+relações íntimas de afeto. Não importa se o agressor é
+parceiro(a), ex-parceiro(a), familiar ou pessoa que convive com a
+vítima.
           </p>
         </section>
       </FadeInView>
@@ -141,8 +141,8 @@ export default function SobrePage() {
           <div className="space-y-3 leading-relaxed text-aurora-text-light">
             <p>
               A Lei Maria da Penha é a legislação brasileira que define regras
-              para proteger, punir e prevenir a violência domestica contra a
-              mulher.
+para proteger, punir e prevenir a violência doméstica contra a
+mulher.
             </p>
             <div className="flex items-start gap-3 rounded-xl border border-aurora-rose/10 bg-white p-5">
               <Scale className="mt-0.5 h-5 w-5 shrink-0 text-aurora-rose" />
@@ -160,8 +160,8 @@ export default function SobrePage() {
                     mulher, juizados especializados, equipe multidisciplinar
                   </li>
                   <li>
-                    <strong>Ação Penal Publica</strong> — não depende da
-                    vontade da vitima para ser iniciada
+                    <strong>Ação Penal Pública</strong> — não depende da
+vontade da vítima para ser iniciada
                   </li>
                 </ul>
               </div>

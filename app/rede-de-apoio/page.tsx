@@ -18,7 +18,7 @@ export default function RedeDeApoioPage() {
           </h1>
           <p className="text-lg leading-relaxed text-aurora-text-light">
             Canais oficiais do governo federal prontos para atender você. Cada
-            orgão tem um numero direto e gratuito.
+            órgão tem um número direto e gratuito.
           </p>
         </section>
       </FadeInView>
