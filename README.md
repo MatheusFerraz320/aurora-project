@@ -1,8 +1,28 @@
 # Projeto Aurora
 
+![Next.js](https://img.shields.io/badge/Next.js-16.2-black?logo=next.js)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?logo=tailwindcss)
+![SSG](https://img.shields.io/badge/Build-SSG-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 **Conscientização e combate à violência doméstica.**
 
+> Projeto de extensão universitária do curso de **Análise e Desenvolvimento de Sistemas** da **UNIASSELVI**.
+> Disciplina de Extensão — atividade prática interdisciplinar com foco em impacto social.
+
 Aplicação web desenvolvida como atividade de extensão universitária, em parceria com a rede de assistência social (CRAS, ONGs, delegacias especializadas). O projeto une conhecimento acadêmico e compromisso social no enfrentamento à violência contra a mulher.
+
+## Funcionalidades
+
+- **Hero com dados oficiais** — estatísticas reais do Ligue 180, DataSenado e Observatório da Mulher
+- **Dados 2025** — página com indicadores oficiais e mensagem de acolhimento
+- **Plano de Segurança Interativo** — wizard anônimo que gera um plano personalizado para download
+- **Autoavaliação de Risco** — quiz anônimo com orientação imediata
+- **Rede de Apoio** — diretório de canais oficiais do governo federal
+- **Modo Disfarce** — transforma o site em previsão do tempo (Ctrl+Shift+D)
+- **Saída Segura** — botão de fuga com atalho Esc 3×
+- **Blog** — artigos educativos em MDX
 
 ## Stack
 
@@ -17,22 +37,13 @@ Aplicação web desenvolvida como atividade de extensão universitária, em parc
 | Formulário | Formspree (configurável) |
 | Build | SSG — 100% estático |
 
-## Funcionalidades
-
-- **Hero com dados oficiais** — estatísticas reais do Ligue 180, DataSenado e Observatório da Mulher
-- **Plano de Segurança Interativo** — wizard anônimo que gera um plano personalizado para download
-- **Autoavaliação de Risco** — quiz anônimo com orientação imediata
-- **Rede de Apoio** — diretório de canais oficiais do governo federal
-- **Modo Disfarce** — transforma o site em previsão do tempo (Ctrl+Shift+D)
-- **Saída Segura** — botão de fuga com atalho Esc 3×
-- **Blog** — artigos educativos em MDX
-
 ## Estrutura
 
 ```
 app/
 ├── page.tsx                 # Home — Hero + cards de navegação
 ├── layout.tsx               # Sidebar + Modo Disfarce + Footer
+├── numeros/                 # Dados oficiais 2025
 ├── plano-seguranca/         # Plano de Segurança Interativo
 ├── sobre/                   # Sobre a Violência Doméstica
 ├── identificar/             # Sinais + Autoavaliação
@@ -60,6 +71,22 @@ npm run start     # Servir build
 npm run lint      # ESLint
 ```
 
+## Contribuindo
+
+Contribuições são bem-vindas! Este é um projeto aberto de extensão universitária.
+
+1. Faça um fork do projeto
+2. Crie uma branch para sua feature: `git checkout -b minha-feature`
+3. Faça o commit das alterações: `git commit -m 'feat: ...'`
+4. Faça o push para a branch: `git push origin minha-feature`
+5. Abra um Pull Request
+
+Para reportar problemas ou sugerir melhorias, abra uma [issue](https://github.com/anomalyco/aurora-project/issues).
+
+## Licença
+
+MIT — projeto educacional aberto.
+
 ## Sobre
 
-O nome **Aurora** simboliza o recomeço — um novo amanhecer depois da escuridão da violência. Este projeto foi desenvolvido por estudantes sob orientação docente, como parte de atividade de extensão do curso superior.
+O nome **Aurora** simboliza o recomeço — um novo amanhecer depois da escuridão da violência. Este projeto foi desenvolvido por estudantes do curso de Análise e Desenvolvimento de Sistemas da UNIASSELVI, sob orientação docente, como parte de atividade de extensão universitária.
